@@ -10,8 +10,8 @@ export default async function ServicesPage() {
       <SectionTitle title="Services" subtitle="Explore legal services for intellectual property matters." />
       <div className="grid gap-4 md:grid-cols-2">
         {services.map((service) => (
-          <Link key={service.slug} href={`/${locale}/services/${service.slug}`} className="rounded-xl border border-slate-700 bg-slate-900 p-6 hover:border-amber-400/40">
-            <p className="text-lg font-semibold text-amber-300">{service.key}</p>
+          <Link key={service.slug} href={`/${locale}/services/${service.slug}`} className="app-card p-6 hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-md">
+            <p className="section-title text-lg font-semibold text-slate-900">{service.key}</p>
           </Link>
         ))}
       </div>

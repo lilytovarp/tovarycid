@@ -9,7 +9,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold text-amber-300">{service.key}</h1>
+      <h1 className="section-title text-3xl font-semibold text-slate-900">{service.key}</h1>
       <QuotationForm serviceName={service.key} />
     </div>
   );

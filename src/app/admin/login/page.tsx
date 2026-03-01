@@ -1,10 +1,11 @@
 export default function AdminLoginPage() {
   return (
-    <div className="mx-auto mt-20 max-w-md rounded-xl border border-slate-700 bg-slate-900 p-8">
-      <h1 className="mb-5 text-2xl font-bold text-amber-300">Admin Login</h1>
+    <div className="mx-auto mt-20 max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+      <h1 className="section-title mb-5 text-2xl font-semibold text-slate-900">Admin Login</h1>
       <form className="space-y-4">
-        <input className="w-full rounded-md border border-slate-700 bg-slate-950 px-3 py-2" placeholder="Email" />
-        <input className="w-full rounded-md border border-slate-700 bg-slate-950 px-3 py-2" type="password" placeholder="Password" />
+        <input className="field" placeholder="Email" />
+        <input className="field" type="password" placeholder="Password" />
+        <button className="btn-primary w-full" type="submit">Sign in</button>
       </form>
     </div>
   );

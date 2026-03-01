@@ -12,19 +12,19 @@ export function ChatWidget() {
   return (
     <div className="fixed bottom-6 right-6 z-50">
       {open && (
-        <div className="mb-3 w-80 rounded-xl border border-amber-400/30 bg-slate-900 p-4 text-sm text-slate-100 shadow-2xl">
-          <p className="mb-2 font-semibold text-amber-300">Support assistant</p>
-          <p className="mb-3 text-slate-300">{flow.greeting}</p>
+        <div className="mb-3 w-80 rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-700 shadow-xl">
+          <p className="mb-2 section-title font-semibold text-slate-900">Support assistant</p>
+          <p className="mb-3 text-slate-500">{flow.greeting}</p>
           <div className="space-y-2">
             {flow.options.map((option) => (
-              <button key={option} className="w-full rounded-md border border-slate-700 bg-slate-800 px-3 py-2 text-left hover:border-amber-400/50">
+              <button key={option} className="btn-soft w-full justify-start text-left">
                 {option}
               </button>
             ))}
           </div>
         </div>
       )}
-      <button onClick={() => setOpen(!open)} className="rounded-full bg-amber-400 px-4 py-3 text-sm font-semibold text-slate-950 shadow-lg">
+      <button onClick={() => setOpen(!open)} className="rounded-full bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-500/30 transition hover:-translate-y-0.5 hover:bg-blue-700">
         {open ? "Close chat" : "Need help?"}
       </button>
     </div>

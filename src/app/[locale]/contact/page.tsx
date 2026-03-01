@@ -5,7 +5,9 @@ export default function ContactPage() {
   return (
     <div className="space-y-6">
       <SectionTitle title="Contact" subtitle="General inquiry form plus WhatsApp CTA." />
-      <a className="inline-block rounded-md bg-emerald-500 px-4 py-2 font-semibold text-slate-950" href="#">WhatsApp us</a>
+      <a className="btn-soft border-emerald-200 bg-emerald-50 text-emerald-700 hover:border-emerald-300 hover:bg-emerald-100" href="#">
+        WhatsApp us
+      </a>
       <QuotationForm serviceName="General inquiry" />
     </div>
   );

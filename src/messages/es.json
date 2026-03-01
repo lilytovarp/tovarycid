@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "contact": "Contacto",
+    "privacy": "Privacidad"
+  },
+  "hero": {
+    "title": "Protege tus ideas en México",
+    "subtitle": "Servicios legales estratégicos de propiedad intelectual para fundadores, creadores y empresas en crecimiento."
+  },
+  "cta": {
+    "getQuote": "Solicitar cotización"
+  }
+}

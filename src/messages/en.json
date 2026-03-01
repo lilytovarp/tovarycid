@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "title": "Protect your ideas in Mexico",
+    "subtitle": "Strategic intellectual property legal services for founders, creators, and growing businesses."
+  },
+  "cta": {
+    "getQuote": "Request a quotation"
+  }
+}
